@@ -1,0 +1,43 @@
+@font-face {
+	font-family: matrix_font;
+	src: url('../fonts/matrix code nfi.otf');
+}
+
+html, body {
+	overflow: hidden;
+	height:100%;
+	width: 100%;
+}
+
+body {
+	background-color: black;
+}
+
+* {
+	font-family: matrix_font;
+	color: #0f0;
+	margin: 0;
+	padding: 0;
+}
+
+#grid {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+
+#grid div {
+	color: #000;
+	line-height: 65%;
+	-webkit-transform: scaleY(0.7);
+	-webkit-transform-origin: top;
+}
+#grid div.color9 {color: #022102;text-shadow: #022102 0 0 20px}
+#grid div.color8 {color: #042b04;text-shadow: #042b04 0 0 20px}
+#grid div.color7 {color: #105710;text-shadow: #105710 0 0 20px}
+#grid div.color6 {color: #277327;text-shadow: #277327 0 0 20px}
+#grid div.color5 {color: #46a346;text-shadow: #46a346 0 0 20px}
+#grid div.color4 {color: #74cc74;text-shadow: #74cc74 0 0 20px}
+#grid div.color3 {color: #b4f0b4;text-shadow: #b4f0b4 0 0 20px}
+#grid div.color2 {color: #e3ffe3;text-shadow: #e3ffe3 0 0 20px}
+#grid div.color1 {color: #fff;text-shadow: #fff 0 0 20px}
